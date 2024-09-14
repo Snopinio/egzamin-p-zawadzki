@@ -1,0 +1,57 @@
+body {
+    background-color: #eeee;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+div#container{
+    width: 90%;
+    margin: 0 auto;
+}
+div#top{
+    display: flex;
+}
+div#topLeft,
+div#topRight{
+background-color: lightblue;
+height: 100px;
+flex: 1;
+padding: 0 10px;
+
+}
+div#topRight a {
+    color: navy;
+    font-size:150% ;
+    text-decoration: none;
+    font-weight:bold ;
+    margin: 10px;
+    padding: 5px;
+}
+div#topRight a:hover{
+    border: 1px solid navy;
+}
+div#baner{
+    clear: both;
+    background-color: #dddddd;
+    height: 200px;
+}
+main{
+    margin: 50px;
+    height: 400px;
+    color: navy;
+}
+footer{
+    background-color: lightblue;
+    padding: 10px;
+    text-align: right;
+}
+input[type=reset],
+input[type=button] {
+    background-color: lightblue;
+    color: navy;
+}
+p#komunikat{
+    color: navy;
+}
+p#error{
+    color: red;
+}
